@@ -14,11 +14,11 @@ pipeline {
             steps {
                 sh 'ssh root@ubuntu \'hostname\''
             }
+        }
         stage("Second step") {
             steps {
                 sh 'ssh root@ubuntu \'echo asdassdaasddsaaslkaskfasklfasfsaklfa\''
             }
-
         }
     }
 }
