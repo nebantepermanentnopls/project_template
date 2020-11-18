@@ -1,6 +1,5 @@
 #!groovy
 // Check ub1 properties
-properties()
 
 pipeline {
     agent { 
